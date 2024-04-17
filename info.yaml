@@ -54,7 +54,6 @@ pinout:
   # The first pins is always ua[0], and the pin numbers must be sequential.
   ua[0]: ""
   ua[1]: ""
-  ua[2]: ""
 
 # Do not change!
 yaml_version: 6
