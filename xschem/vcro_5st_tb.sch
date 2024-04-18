@@ -49,7 +49,7 @@ N 90 -40 120 -40 {
 lab=#net2}
 C {vcro_5st.sym} -60 -10 0 0 {name=x1}
 C {devices/vsource.sym} -520 0 0 0 {name=V1 value=1.8 savecurrent=false}
-C {devices/vsource.sym} -420 0 0 0 {name=V2 value="pwl(0s 0.3V 1ms 0.3V 2ms 1.5V)" savecurrent=false}
+C {devices/vsource.sym} -420 0 0 0 {name=V2 value="pwl(0s 0.4V 1ms 0.3V 2ms 1.4V)" savecurrent=false}
 C {devices/gnd.sym} -390 60 0 0 {name=l1 lab=GND}
 C {devices/lab_pin.sym} 230 -40 0 1 {name=p1 sig_type=std_logic lab=out}
 C {devices/lab_wire.sym} -420 -40 0 0 {name=p2 sig_type=std_logic lab=vc}
