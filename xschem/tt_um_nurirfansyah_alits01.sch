@@ -13,9 +13,7 @@ N 1280 -1460 1330 -1460 {
 lab=ua[2]}
 N 1280 -1440 1330 -1440 {
 lab=ua[1]}
-N 1300 -1420 1330 -1420 {
-lab=VGND}
-N 1300 -1420 1300 -1370 {
+N 1240 -1420 1240 -1370 {
 lab=VGND}
 N 1630 -1480 1670 -1480 {
 lab=ua[0]}
@@ -67,6 +65,36 @@ N 890 -1570 940 -1570 {
 lab=uio_oe[2]}
 N 890 -1590 940 -1590 {
 lab=uio_oe[1]}
+N 1240 -1420 1330 -1420 {
+lab=VGND}
+N 1300 -1480 1300 -1190 {
+lab=VPWR}
+N 1300 -1190 1340 -1190 {
+lab=VPWR}
+N 1310 -1460 1310 -1170 {
+lab=ua[2]}
+N 1310 -1170 1340 -1170 {
+lab=ua[2]}
+N 1290 -1440 1290 -1150 {
+lab=ua[1]}
+N 1290 -1150 1340 -1150 {
+lab=ua[1]}
+N 1280 -1130 1340 -1130 {
+lab=VGND}
+N 1280 -1420 1280 -1130 {
+lab=VGND}
+N 1640 -1190 1690 -1190 {
+lab=uo_out[4]}
+N 1640 -1170 1690 -1170 {
+lab=uo_out[3]}
+N 1640 -1150 1690 -1150 {
+lab=uo_out[2]}
+N 1640 -1130 1690 -1130 {
+lab=uo_out[1]}
+N 1640 -1110 1690 -1110 {
+lab=uo_out[0]}
+N 730 -1550 750 -1550 {
+lab=ua[0]}
 C {devices/ipin.sym} 770 -1610 0 0 {name=p0 lab=clk}
 C {devices/ipin.sym} 770 -1590 0 0 {name=p1 lab=ena}
 C {devices/ipin.sym} 770 -1570 0 0 {name=p2 lab=rst_n}
@@ -136,12 +164,12 @@ C {devices/iopin.sym} 950 -1130 0 0 {name=p52 lab=uio_out[7]}
 C {devices/noconn.sym} 770 -1450 0 1 {name=l17}
 C {devices/noconn.sym} 770 -1470 0 1 {name=l18}
 C {devices/noconn.sym} 770 -1410 0 1 {name=l4}
-C {devices/ipin.sym} 1280 -1460 0 0 {name=p3 lab=ua[2]}
-C {devices/ipin.sym} 1280 -1440 0 0 {name=p4 lab=ua[1]}
+C {devices/ipin.sym} 770 -1510 0 0 {name=p3 lab=ua[2]}
+C {devices/ipin.sym} 770 -1530 0 0 {name=p4 lab=ua[1]}
 C {devices/ipin.sym} 770 -1390 0 0 {name=p11 lab=ui_in[0]}
 C {devices/opin.sym} 940 -1450 0 0 {name=p35 lab=uo_out[0]}
-C {devices/opin.sym} 1670 -1480 0 0 {name=p5 lab=ua[0]}
-C {devices/iopin.sym} 1300 -1370 1 0 {name=p44 lab=VGND}
+C {devices/opin.sym} 750 -1550 0 0 {name=p5 lab=ua[0]}
+C {devices/iopin.sym} 1240 -1370 1 0 {name=p44 lab=VGND}
 C {devices/iopin.sym} 1300 -1530 1 1 {name=p43 lab=VPWR}
 C {devices/noconn.sym} 770 -1390 0 1 {name=l23}
 C {vcro_5elements.sym} 1480 -1450 0 0 {name=x1}
@@ -153,11 +181,6 @@ C {devices/noconn.sym} 890 -1530 0 0 {name=l11}
 C {devices/noconn.sym} 890 -1510 0 0 {name=l12}
 C {devices/noconn.sym} 890 -1490 0 0 {name=l13}
 C {devices/noconn.sym} 890 -1470 0 0 {name=l14}
-C {devices/noconn.sym} 890 -1450 0 0 {name=l15}
-C {devices/noconn.sym} 890 -1430 0 0 {name=l16}
-C {devices/noconn.sym} 890 -1410 0 0 {name=l19}
-C {devices/noconn.sym} 890 -1390 0 0 {name=l20}
-C {devices/noconn.sym} 890 -1370 0 0 {name=l21}
 C {devices/noconn.sym} 890 -1350 0 0 {name=l22}
 C {devices/noconn.sym} 890 -1330 0 0 {name=l24}
 C {devices/noconn.sym} 890 -1310 0 0 {name=l25}
@@ -169,3 +192,18 @@ C {devices/noconn.sym} 890 -1190 0 0 {name=l45}
 C {devices/noconn.sym} 890 -1170 0 0 {name=l46}
 C {devices/noconn.sym} 890 -1150 0 0 {name=l47}
 C {devices/noconn.sym} 890 -1130 0 0 {name=l48}
+C {vcro_5elements_taps.sym} 1490 -1150 0 0 {name=x2}
+C {devices/lab_pin.sym} 890 -1450 0 0 {name=p53 sig_type=std_logic lab=uo_out[0]}
+C {devices/lab_pin.sym} 890 -1430 0 0 {name=p54 sig_type=std_logic lab=uo_out[1]}
+C {devices/lab_pin.sym} 890 -1410 0 0 {name=p55 sig_type=std_logic lab=uo_out[2]}
+C {devices/lab_pin.sym} 890 -1390 0 0 {name=p56 sig_type=std_logic lab=uo_out[3]}
+C {devices/lab_pin.sym} 890 -1370 0 0 {name=p57 sig_type=std_logic lab=uo_out[4]}
+C {devices/lab_pin.sym} 1690 -1110 0 1 {name=p58 sig_type=std_logic lab=uo_out[0]}
+C {devices/lab_pin.sym} 1690 -1130 0 1 {name=p59 sig_type=std_logic lab=uo_out[1]}
+C {devices/lab_pin.sym} 1690 -1150 0 1 {name=p60 sig_type=std_logic lab=uo_out[2]}
+C {devices/lab_pin.sym} 1690 -1170 0 1 {name=p61 sig_type=std_logic lab=uo_out[3]}
+C {devices/lab_pin.sym} 1690 -1190 0 1 {name=p62 sig_type=std_logic lab=uo_out[4]}
+C {devices/lab_pin.sym} 1280 -1460 0 0 {name=p63 sig_type=std_logic lab=ua[2]}
+C {devices/lab_pin.sym} 1280 -1440 0 0 {name=p64 sig_type=std_logic lab=ua[1]}
+C {devices/lab_pin.sym} 730 -1550 0 0 {name=p65 sig_type=std_logic lab=ua[0]}
+C {devices/lab_pin.sym} 1670 -1480 0 1 {name=p66 sig_type=std_logic lab=ua[0]}

@@ -61,6 +61,8 @@ gnd                                        |gnd
 Cell pin lists are equivalent.
 Device classes delaycell_vcro and delaycell_vcro are equivalent.
 Flattening unmatched subcell vcro_5elements in circuit tt_um_nurirfansyah_alits01 (0)(1 instance)
+Flattening unmatched subcell vcro_5elements_taps in circuit tt_um_nurirfansyah_alits01 (0)(1 instance)
+Flattening unmatched subcell vcro_5s_taps in circuit tt_um_nurirfansyah_alits01 (1)(1 instance)
 Flattening unmatched subcell vcro_5s in circuit tt_um_nurirfansyah_alits01 (1)(1 instance)
 
 Cell tt_um_nurirfansyah_alits01 (0) disconnected node: clk
@@ -94,10 +96,6 @@ Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uio_oe[4]
 Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uio_oe[5]
 Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uio_oe[6]
 Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uio_oe[7]
-Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uo_out[1]
-Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uo_out[2]
-Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uo_out[3]
-Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uo_out[4]
 Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uo_out[5]
 Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uo_out[6]
 Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uo_out[7]
@@ -110,7 +108,6 @@ Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uio_out[5]
 Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uio_out[6]
 Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uio_out[7]
 Cell tt_um_nurirfansyah_alits01 (0) disconnected node: ui_in[0]
-Cell tt_um_nurirfansyah_alits01 (0) disconnected node: uo_out[0]
 Cell tt_um_nurirfansyah_alits01 (1) disconnected node: clk
 Cell tt_um_nurirfansyah_alits01 (1) disconnected node: ena
 Cell tt_um_nurirfansyah_alits01 (1) disconnected node: rst_n
@@ -138,9 +135,9 @@ Cell tt_um_nurirfansyah_alits01 (1) disconnected node: uio_in[7]
 Subcircuit summary:
 Circuit 1: tt_um_nurirfansyah_alits01      |Circuit 2: tt_um_nurirfansyah_alits01      
 -------------------------------------------|-------------------------------------------
-delaycell_vcro (5)                         |delaycell_vcro (5)                         
-Number of devices: 5                       |Number of devices: 5                       
-Number of nets: 9                          |Number of nets: 9                          
+delaycell_vcro (10)                        |delaycell_vcro (10)                        
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 14                         |Number of nets: 14                         
 ---------------------------------------------------------------------------------------
 Resolving symmetries by property value.
 Resolving symmetries by pin name.
@@ -153,6 +150,11 @@ ua[2]                                      |ua[2]
 ua[1]                                      |ua[1]                                      
 VPWR                                       |VPWR                                       
 VGND                                       |VGND                                       
+uo_out[0]                                  |uo_out[0]                                  
+uo_out[1]                                  |uo_out[1]                                  
+uo_out[2]                                  |uo_out[2]                                  
+uo_out[3]                                  |uo_out[3]                                  
+uo_out[4]                                  |uo_out[4]                                  
 ua[0]                                      |ua[0]                                      
 clk                                        |clk                                        
 ena                                        |ena                                        
@@ -186,10 +188,6 @@ uio_oe[4]                                  |(no matching pin)
 uio_oe[5]                                  |(no matching pin)                          
 uio_oe[6]                                  |(no matching pin)                          
 uio_oe[7]                                  |(no matching pin)                          
-uo_out[1]                                  |(no matching pin)                          
-uo_out[2]                                  |(no matching pin)                          
-uo_out[3]                                  |(no matching pin)                          
-uo_out[4]                                  |(no matching pin)                          
 uo_out[5]                                  |(no matching pin)                          
 uo_out[6]                                  |(no matching pin)                          
 uo_out[7]                                  |(no matching pin)                          
@@ -201,7 +199,6 @@ uio_out[4]                                 |(no matching pin)
 uio_out[5]                                 |(no matching pin)                          
 uio_out[6]                                 |(no matching pin)                          
 uio_out[7]                                 |(no matching pin)                          
-uo_out[0]                                  |(no matching pin)                          
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes tt_um_nurirfansyah_alits01 and tt_um_nurirfansyah_alits01 are equivalent.
