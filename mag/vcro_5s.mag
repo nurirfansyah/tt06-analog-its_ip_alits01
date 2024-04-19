@@ -1,7 +1,8 @@
 magic
 tech sky130A
-timestamp 1713502648
+timestamp 1713522478
 << metal1 >>
+rect 0 630 35 675
 rect 15 390 80 400
 rect 15 360 25 390
 rect 70 360 80 390
@@ -27,9 +28,14 @@ rect -55 295 0 305
 rect -55 260 -45 295
 rect -10 260 35 295
 rect 555 260 615 295
+rect 1140 260 1265 295
 rect 1725 260 1785 295
 rect 2310 260 2370 295
+rect 2835 290 2895 305
+rect 2835 260 2845 290
+rect 2885 260 2895 290
 rect -55 250 0 260
+rect 2835 245 2895 260
 rect 15 190 80 200
 rect 15 160 25 190
 rect 70 160 80 190
@@ -50,6 +56,7 @@ rect 2355 190 2420 200
 rect 2355 160 2365 190
 rect 2410 160 2420 190
 rect 2355 150 2420 160
+rect 0 0 50 45
 << via1 >>
 rect 25 360 70 390
 rect 610 360 655 390
@@ -110,27 +117,27 @@ rect 1825 160 2365 185
 rect 2410 160 2420 190
 rect 15 150 2420 160
 use delaycell_vcro  delaycell_vcro_0
-timestamp 1713497851
+timestamp 1713516147
 transform 1 0 5 0 1 -5
 box -5 5 580 680
 use delaycell_vcro  delaycell_vcro_1
-timestamp 1713497851
+timestamp 1713516147
 transform 1 0 590 0 1 -5
 box -5 5 580 680
 use delaycell_vcro  delaycell_vcro_2
-timestamp 1713497851
+timestamp 1713516147
 transform 1 0 1175 0 1 -5
 box -5 5 580 680
 use delaycell_vcro  delaycell_vcro_3
-timestamp 1713497851
+timestamp 1713516147
 transform 1 0 1760 0 1 -5
 box -5 5 580 680
 use delaycell_vcro  delaycell_vcro_4
-timestamp 1713497851
+timestamp 1713516147
 transform 1 0 2345 0 1 -5
 box -5 5 580 680
 << labels >>
-flabel space 0 670 30 675 0 FreeSans 800 0 0 0 vdd
+flabel metal1 0 670 30 675 0 FreeSans 800 0 0 0 vdd
 port 1 nsew
 flabel metal2 2900 245 2910 305 0 FreeSans 800 0 0 0 out
 port 0 nsew
@@ -138,6 +145,6 @@ flabel metal2 15 350 20 400 0 FreeSans 800 0 0 0 vcon_p
 port 2 nsew
 flabel metal2 15 150 20 200 0 FreeSans 800 0 0 0 vcon_n
 port 3 nsew
-flabel space 0 0 35 5 0 FreeSans 800 0 0 0 gnd
+flabel metal1 0 0 35 5 0 FreeSans 800 0 0 0 gnd
 port 4 nsew
 << end >>
