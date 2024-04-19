@@ -1,4 +1,4 @@
-timestamp 1713522478
+timestamp 1713528805
 version 8.3
 tech sky130A
 style ngspice()
@@ -29,34 +29,34 @@ port "uio_in[4]" 23 20670 44952 20730 45152 m4
 port "uio_in[5]" 24 19934 44952 19994 45152 m4
 port "uio_in[6]" 25 19198 44952 19258 45152 m4
 port "uio_in[7]" 26 18462 44952 18522 45152 m4
-port "uo_out[0]" 43 17726 44952 17786 45152 m4
-port "uo_out[1]" 44 16990 44952 17050 45152 m4
-port "uo_out[2]" 45 16254 44952 16314 45152 m4
-port "uo_out[3]" 46 15518 44952 15578 45152 m4
-port "uo_out[4]" 47 14782 44952 14842 45152 m4
-port "uo_out[5]" 48 14046 44952 14106 45152 m4
-port "uo_out[6]" 49 13310 44952 13370 45152 m4
-port "uo_out[7]" 50 12574 44952 12634 45152 m4
-port "uio_out[0]" 35 11838 44952 11898 45152 m4
-port "uio_out[1]" 36 11102 44952 11162 45152 m4
-port "uio_out[2]" 37 10366 44952 10426 45152 m4
-port "uio_out[3]" 38 9630 44952 9690 45152 m4
-port "uio_out[4]" 39 8894 44952 8954 45152 m4
-port "uio_out[5]" 40 8158 44952 8218 45152 m4
-port "uio_out[6]" 41 7422 44952 7482 45152 m4
-port "uio_out[7]" 42 6686 44952 6746 45152 m4
-port "uio_oe[0]" 27 5950 44952 6010 45152 m4
-port "uio_oe[1]" 28 5214 44952 5274 45152 m4
-port "uio_oe[2]" 29 4478 44952 4538 45152 m4
-port "uio_oe[3]" 30 3742 44952 3802 45152 m4
-port "uio_oe[4]" 31 3006 44952 3066 45152 m4
-port "uio_oe[5]" 32 2270 44952 2330 45152 m4
-port "uio_oe[6]" 33 1534 44952 1594 45152 m4
-port "uio_oe[7]" 34 798 44952 858 45152 m4
 port "ua[1]" 4 26896 0 27016 200 m4
 port "ua[0]" 3 31312 0 31432 200 m4
 port "ua[2]" 5 22480 0 22600 200 m4
 port "VGND" 52 9800 1000 10100 44152 m4
+port "uo_out[7]" 50 12574 44952 12634 45152 m4
+port "uo_out[6]" 49 13310 44952 13370 45152 m4
+port "uo_out[5]" 48 14046 44952 14106 45152 m4
+port "uo_out[4]" 47 14782 44952 14842 45152 m4
+port "uo_out[3]" 46 15518 44952 15578 45152 m4
+port "uo_out[2]" 45 16254 44952 16314 45152 m4
+port "uo_out[1]" 44 16990 44952 17050 45152 m4
+port "uo_out[0]" 43 17726 44952 17786 45152 m4
+port "uio_out[7]" 42 6686 44952 6746 45152 m4
+port "uio_out[6]" 41 7422 44952 7482 45152 m4
+port "uio_out[5]" 40 8158 44952 8218 45152 m4
+port "uio_out[4]" 39 8894 44952 8954 45152 m4
+port "uio_out[3]" 38 9630 44952 9690 45152 m4
+port "uio_out[2]" 37 10366 44952 10426 45152 m4
+port "uio_out[1]" 36 11102 44952 11162 45152 m4
+port "uio_out[0]" 35 11838 44952 11898 45152 m4
+port "uio_oe[7]" 34 798 44952 858 45152 m4
+port "uio_oe[6]" 33 1534 44952 1594 45152 m4
+port "uio_oe[5]" 32 2270 44952 2330 45152 m4
+port "uio_oe[4]" 31 3006 44952 3066 45152 m4
+port "uio_oe[3]" 30 3742 44952 3802 45152 m4
+port "uio_oe[2]" 29 4478 44952 4538 45152 m4
+port "uio_oe[1]" 28 5214 44952 5274 45152 m4
+port "uio_oe[0]" 27 5950 44952 6010 45152 m4
 port "VPWR" 51 200 1000 500 44152 m4
 node "ua[3]" 0 122.428 18064 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24000 640 0 0 0 0
 node "ua[4]" 0 122.428 13648 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24000 640 0 0 0 0
@@ -82,147 +82,124 @@ node "uio_in[4]" 0 48.6998 20670 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "uio_in[5]" 0 48.6998 19934 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
 node "uio_in[6]" 0 48.6998 19198 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
 node "uio_in[7]" 0 48.6998 18462 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uo_out[0]" 0 48.6998 17726 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uo_out[1]" 0 48.6998 16990 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uo_out[2]" 0 48.6998 16254 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uo_out[3]" 0 48.6998 15518 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uo_out[4]" 0 48.6998 14782 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uo_out[5]" 0 48.6998 14046 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uo_out[6]" 0 48.6998 13310 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uo_out[7]" 0 48.6998 12574 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_out[0]" 0 48.6998 11838 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_out[1]" 0 48.6998 11102 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_out[2]" 0 48.6998 10366 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_out[3]" 0 48.6998 9630 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_out[4]" 0 48.6998 8894 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_out[5]" 0 48.6998 8158 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_out[6]" 0 48.6998 7422 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_out[7]" 0 48.6998 6686 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_oe[0]" 0 48.6998 5950 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_oe[1]" 0 48.6998 5214 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_oe[2]" 0 48.6998 4478 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_oe[3]" 0 48.6998 3742 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_oe[4]" 0 48.6998 3006 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_oe[5]" 0 48.6998 2270 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_oe[6]" 0 48.6998 1534 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "uio_oe[7]" 0 73.2969 798 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
 node "ua[1]" 4 4431.31 26896 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 109000 2140 1514000 19060 78000 1440 0 0 0 0
 node "ua[0]" 4 3821.65 31312 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 236900 4060 774700 12080 80400 1480 0 0 0 0
 node "ua[2]" 4 3155.08 22480 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 169500 3320 1025100 12400 78000 1440 0 0 0 0
-node "VGND" 15 30039.8 9800 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3596400 40320 762600 6000 421600 3160 12945600 86904 0 0 0 0
+node "VGND" 15 38615.7 9800 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3596400 40320 762600 6000 421600 3160 16744320 143576 0 0 0 0
+equiv "VGND" "uo_out[7]"
+equiv "VGND" "uo_out[6]"
+equiv "VGND" "uo_out[5]"
+equiv "VGND" "uo_out[4]"
+equiv "VGND" "uo_out[3]"
+equiv "VGND" "uo_out[2]"
+equiv "VGND" "uo_out[1]"
+equiv "VGND" "uo_out[0]"
+equiv "VGND" "uio_out[7]"
+equiv "VGND" "uio_out[6]"
+equiv "VGND" "uio_out[5]"
+equiv "VGND" "uio_out[4]"
+equiv "VGND" "uio_out[3]"
+equiv "VGND" "uio_out[2]"
+equiv "VGND" "uio_out[1]"
+equiv "VGND" "uio_out[0]"
+equiv "VGND" "uio_oe[7]"
+equiv "VGND" "uio_oe[6]"
+equiv "VGND" "uio_oe[5]"
+equiv "VGND" "uio_oe[4]"
+equiv "VGND" "uio_oe[3]"
+equiv "VGND" "uio_oe[2]"
+equiv "VGND" "uio_oe[1]"
+equiv "VGND" "uio_oe[0]"
 node "VPWR" 1 33157.4 200 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4084500 59040 195600 2380 141000 1540 12945600 86904 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "uio_oe[5]" "uio_oe[6]" 23.7975
-cap "ua[1]" "ua[2]" 527.342
-cap "uio_oe[2]" "uio_oe[1]" 23.7975
-cap "uio_in[7]" "uo_out[0]" 23.7975
-cap "VPWR" "ua[1]" 3.51431
-cap "uio_in[3]" "uio_in[2]" 23.7975
-cap "uio_in[0]" "ui_in[7]" 23.7975
 cap "clk" "ena" 23.7975
-cap "uio_out[7]" "uio_oe[0]" 23.7975
-cap "uio_in[1]" "uio_in[2]" 23.7975
-cap "uio_out[3]" "uio_out[2]" 23.7975
-cap "ua[1]" "VGND" 184.089
-cap "rst_n" "clk" 23.7975
-cap "uio_oe[0]" "uio_oe[1]" 23.7975
-cap "uio_oe[7]" "uio_oe[6]" 23.7975
-cap "uio_out[4]" "uio_out[3]" 23.7975
-cap "uio_in[1]" "uio_in[0]" 23.7975
-cap "uio_in[5]" "uio_in[6]" 23.7975
-cap "ui_in[1]" "ui_in[2]" 23.7975
-cap "uo_out[4]" "uo_out[5]" 23.7975
+cap "clk" "rst_n" 23.7975
 cap "ui_in[1]" "ui_in[0]" 23.7975
-cap "uo_out[3]" "uo_out[2]" 23.7975
-cap "ui_in[6]" "ui_in[5]" 23.7975
-cap "VGND" "ua[0]" 1.1165
-cap "VPWR" "ua[2]" 23.6287
-cap "uio_out[1]" "uio_out[2]" 23.7975
-cap "uio_out[0]" "uo_out[7]" 23.7975
-cap "uo_out[5]" "uo_out[6]" 23.7975
-cap "ui_in[2]" "ui_in[3]" 23.7975
-cap "uio_in[5]" "uio_in[4]" 23.7975
-cap "uio_out[1]" "uio_out[0]" 23.7975
-cap "uio_out[5]" "uio_out[6]" 23.7975
-cap "VGND" "ua[2]" 148.8
-cap "uo_out[1]" "uo_out[0]" 23.7975
-cap "uio_out[5]" "uio_out[4]" 23.7975
-cap "uio_in[6]" "uio_in[7]" 23.7975
-cap "uo_out[3]" "uo_out[4]" 23.7975
-cap "ui_in[3]" "ui_in[4]" 23.7975
-cap "VPWR" "VGND" 808.163
-cap "uio_oe[3]" "uio_oe[4]" 23.7975
-cap "uio_oe[5]" "uio_oe[4]" 23.7975
-cap "uio_oe[3]" "uio_oe[2]" 23.7975
-cap "uo_out[7]" "uo_out[6]" 23.7975
-cap "uio_out[6]" "uio_out[7]" 23.7975
-cap "ui_in[4]" "ui_in[5]" 23.7975
-cap "uo_out[1]" "uo_out[2]" 23.7975
-cap "ui_in[6]" "ui_in[7]" 23.7975
-cap "VPWR" "ua[7]" 10.2845
+cap "uio_in[7]" "VGND" 23.7975
+cap "ua[2]" "VPWR" 23.6287
+cap "uio_in[3]" "uio_in[2]" 23.7975
+cap "uio_in[1]" "uio_in[0]" 23.7975
+cap "ui_in[7]" "uio_in[0]" 23.7975
+cap "uio_in[4]" "uio_in[5]" 23.7975
+cap "uio_in[6]" "uio_in[5]" 23.7975
+cap "VGND" "ua[1]" 184.089
+cap "ui_in[5]" "ui_in[4]" 23.7975
+cap "ui_in[2]" "ui_in[1]" 23.7975
 cap "rst_n" "ui_in[0]" 23.7975
+cap "ua[2]" "ua[1]" 527.342
+cap "ui_in[3]" "ui_in[2]" 23.7975
+cap "ui_in[3]" "ui_in[4]" 23.7975
+cap "uio_in[2]" "uio_in[1]" 23.7975
+cap "VGND" "ua[0]" 1.1165
+cap "VPWR" "ua[1]" 3.51431
+cap "ua[2]" "VGND" 148.8
+cap "VPWR" "ua[7]" 10.2845
 cap "uio_in[3]" "uio_in[4]" 23.7975
+cap "ui_in[5]" "ui_in[6]" 23.7975
+cap "uio_in[7]" "uio_in[6]" 23.7975
+cap "ui_in[7]" "ui_in[6]" 23.7975
+cap "VPWR" "VGND" 808.163
 cap "vcro_5s_0/delaycell_vcro_4/gnd" "vcro_5s_0/out" 0.00212717
-cap "vcro_5s_0/vcon_n" "vcro_5s_0/gnd" 5.00035
-cap "vcro_5s_0/vcon_p" "vcro_5s_0/delaycell_vcro_1/tg_vcro_0/out" 0.00274021
-cap "vcro_5s_0/vdd" "vcro_5s_0/delaycell_vcro_0/in" 4.39695
-cap "vcro_5s_0/vcon_p" "vcro_5s_0/delaycell_vcro_0/tg_vcro_0/out" 0.116012
-cap "vcro_5s_0/vcon_n" "vcro_5s_0/vcon_p" -18.575
-cap "vcro_5s_0/gnd" "vcro_5s_0/delaycell_vcro_0/in" 10.1541
-cap "vcro_5s_0/vcon_n" "vcro_5s_0/delaycell_vcro_0/tg_vcro_0/out" 4.19371
-cap "vcro_5s_0/gnd" "vcro_5s_0/vdd" -8.94194
-cap "vcro_5s_0/vcon_p" "vcro_5s_0/delaycell_vcro_0/in" 52.908
-cap "vcro_5s_0/vcon_p" "vcro_5s_0/vdd" 5.38612
-cap "vcro_5s_0/vcon_n" "vcro_5s_0/delaycell_vcro_0/in" 50.9198
 cap "vcro_5s_0/delaycell_vcro_1/in" "vcro_5s_0/vcon_p" 0.0118178
-cap "vcro_5s_0/vcon_p" "vcro_5s_0/gnd" -0.0266184
+cap "vcro_5s_0/gnd" "vcro_5s_0/delaycell_vcro_0/in" 10.1541
+cap "vcro_5s_0/vcon_n" "vcro_5s_0/delaycell_vcro_1/in" 0.585605
+cap "vcro_5s_0/vdd" "vcro_5s_0/vcon_p" 5.38612
 cap "vcro_5s_0/vcon_n" "vcro_5s_0/vdd" -0.556478
-cap "vcro_5s_0/delaycell_vcro_1/in" "vcro_5s_0/vcon_n" 0.585605
-cap "vcro_5s_0/vdd" "vcro_5s_0/gnd" -49.6774
-cap "vcro_5s_0/delaycell_vcro_0/in" "vcro_5s_0/vcon_n" 2.32425
-cap "vcro_5s_0/vdd" "vcro_5s_0/vcon_n" -0.0774594
-cap "vcro_5s_0/vcon_n" "vcro_5s_0/gnd" 20.7823
-cap "vcro_5s_0/delaycell_vcro_0/tg_vcro_0/out" "vcro_5s_0/vdd" 1.75529
+cap "vcro_5s_0/gnd" "vcro_5s_0/vcon_p" -0.0266184
+cap "vcro_5s_0/vcon_n" "vcro_5s_0/gnd" 5.00035
+cap "vcro_5s_0/vcon_p" "vcro_5s_0/delaycell_vcro_0/in" 52.908
+cap "vcro_5s_0/vcon_p" "vcro_5s_0/delaycell_vcro_1/tg_vcro_0/out" 0.00274021
+cap "vcro_5s_0/vcon_n" "vcro_5s_0/delaycell_vcro_0/in" 50.9198
+cap "vcro_5s_0/vcon_p" "vcro_5s_0/delaycell_vcro_0/tg_vcro_0/out" 0.116012
+cap "vcro_5s_0/vdd" "vcro_5s_0/gnd" -8.94194
+cap "vcro_5s_0/vcon_n" "vcro_5s_0/delaycell_vcro_0/tg_vcro_0/out" 4.19371
+cap "vcro_5s_0/vcon_n" "vcro_5s_0/vcon_p" -18.575
+cap "vcro_5s_0/vdd" "vcro_5s_0/delaycell_vcro_0/in" 4.39695
+cap "vcro_5s_0/vcon_p" "vcro_5s_0/delaycell_vcro_0/in" 2.58717
+cap "vcro_5s_0/vcon_n" "vcro_5s_0/vdd" -0.0774594
 cap "vcro_5s_0/gnd" "vcro_5s_0/delaycell_vcro_1/in" 2.84217e-14
-cap "vcro_5s_0/delaycell_vcro_0/tg_vcro_0/out" "vcro_5s_0/gnd" 3.24028
+cap "vcro_5s_0/gnd" "vcro_5s_0/delaycell_vcro_0/tg_vcro_0/out" 3.24028
 cap "vcro_5s_0/delaycell_vcro_1/tg_vcro_0/out" "vcro_5s_0/vcon_n" 0.00154949
 cap "vcro_5s_0/vcon_n" "vcro_5s_0/delaycell_vcro_1/in" 0.00722435
-cap "vcro_5s_0/delaycell_vcro_0/tg_vcro_0/out" "vcro_5s_0/vcon_n" 0.0657814
-cap "vcro_5s_0/vcon_p" "vcro_5s_0/delaycell_vcro_0/in" 2.58717
-cap "vcro_5s_0/vcon_p" "vcro_5s_0/vdd" 5.8719
-cap "vcro_5s_0/vcon_p" "vcro_5s_0/vcon_n" 0.0644977
-cap "vcro_5s_0/delaycell_vcro_2/in" "vcro_5s_0/vcon_n" 5.68434e-14
-cap "vcro_5s_0/vdd" "vcro_5s_0/vcon_p" 4.89658
-cap "vcro_5s_0/delaycell_vcro_2/in" "vcro_5s_0/gnd" 2.84217e-14
+cap "vcro_5s_0/vcon_n" "vcro_5s_0/delaycell_vcro_0/in" 2.32425
+cap "vcro_5s_0/vdd" "vcro_5s_0/delaycell_vcro_0/tg_vcro_0/out" 1.75529
+cap "vcro_5s_0/vcon_n" "vcro_5s_0/delaycell_vcro_0/tg_vcro_0/out" 0.0657814
+cap "vcro_5s_0/vdd" "vcro_5s_0/vcon_p" 5.8719
+cap "vcro_5s_0/gnd" "vcro_5s_0/vdd" -49.6774
+cap "vcro_5s_0/vcon_n" "vcro_5s_0/vcon_p" 0.0644977
+cap "vcro_5s_0/gnd" "vcro_5s_0/vcon_n" 20.7823
 cap "vcro_5s_0/vdd" "vcro_5s_0/vcon_n" -4.44089e-16
-cap "vcro_5s_0/delaycell_vcro_1/tg_vcro_0/out" "vcro_5s_0/gnd" 3.24028
-cap "vcro_5s_0/vdd" "vcro_5s_0/gnd" -49.6774
+cap "vcro_5s_0/gnd" "vcro_5s_0/vdd" -49.6774
+cap "vcro_5s_0/gnd" "vcro_5s_0/vcon_n" 19.7628
+cap "vcro_5s_0/delaycell_vcro_2/in" "vcro_5s_0/vcon_n" 5.68434e-14
+cap "vcro_5s_0/gnd" "vcro_5s_0/delaycell_vcro_2/in" 2.84217e-14
 cap "vcro_5s_0/vdd" "vcro_5s_0/delaycell_vcro_1/tg_vcro_0/out" 1.75529
-cap "vcro_5s_0/vcon_n" "vcro_5s_0/gnd" 19.7628
-cap "vcro_5s_0/delaycell_vcro_3/in" "vcro_5s_0/delaycell_vcro_4/gnd" 2.84217e-14
-cap "vcro_5s_0/delaycell_vcro_4/vcp" "vcro_5s_0/delaycell_vcro_4/vdd" 4.89658
-cap "vcro_5s_0/delaycell_vcro_3/tg_vcro_0/out" "vcro_5s_0/delaycell_vcro_4/gnd" 0.74211
-cap "vcro_5s_0/delaycell_vcro_2/tg_vcro_0/out" "vcro_5s_0/delaycell_vcro_4/vdd" 1.75529
-cap "vcro_5s_0/delaycell_vcro_4/gnd" "vcro_5s_0/delaycell_vcro_4/vdd" -49.6774
+cap "vcro_5s_0/gnd" "vcro_5s_0/delaycell_vcro_1/tg_vcro_0/out" 3.24028
+cap "vcro_5s_0/vcon_p" "vcro_5s_0/vdd" 4.89658
 cap "vcro_5s_0/delaycell_vcro_4/vcn" "vcro_5s_0/delaycell_vcro_4/gnd" 19.7628
-cap "vcro_5s_0/delaycell_vcro_2/tg_vcro_0/out" "vcro_5s_0/delaycell_vcro_4/gnd" 3.24028
-cap "vcro_5s_0/delaycell_vcro_3/tg_vcro_0/out" "vcro_5s_0/delaycell_vcro_4/vdd" 0.424911
-cap "vcro_5s_0/delaycell_vcro_4/vdd" "vcro_5s_0/delaycell_vcro_4/gnd" -48.9677
-cap "vcro_5s_0/delaycell_vcro_4/tg_vcro_0/out" "vcro_5s_0/delaycell_vcro_4/gnd" 3.24028
-cap "vcro_5s_0/delaycell_vcro_4/vdd" "vcro_5s_0/delaycell_vcro_4/vcp" 3.73472
-cap "vcro_5s_0/delaycell_vcro_4/in" "vcro_5s_0/delaycell_vcro_4/gnd" 2.84217e-14
-cap "vcro_5s_0/delaycell_vcro_4/vcn" "vcro_5s_0/delaycell_vcro_4/gnd" 8.49915
-cap "vcro_5s_0/delaycell_vcro_3/tg_vcro_0/out" "vcro_5s_0/out" 1.77636e-15
-cap "vcro_5s_0/out" "vcro_5s_0/delaycell_vcro_4/gnd" 4.3489
-cap "vcro_5s_0/delaycell_vcro_4/tg_vcro_0/out" "vcro_5s_0/out" 3.21983
+cap "vcro_5s_0/delaycell_vcro_4/vdd" "vcro_5s_0/delaycell_vcro_4/gnd" -49.6774
+cap "vcro_5s_0/delaycell_vcro_4/vdd" "vcro_5s_0/delaycell_vcro_3/tg_vcro_0/out" 0.424911
+cap "vcro_5s_0/delaycell_vcro_3/tg_vcro_0/out" "vcro_5s_0/delaycell_vcro_4/gnd" 0.74211
+cap "vcro_5s_0/delaycell_vcro_4/vcp" "vcro_5s_0/delaycell_vcro_4/vdd" 4.89658
+cap "vcro_5s_0/delaycell_vcro_3/in" "vcro_5s_0/delaycell_vcro_4/gnd" 2.84217e-14
+cap "vcro_5s_0/delaycell_vcro_4/vdd" "vcro_5s_0/delaycell_vcro_2/tg_vcro_0/out" 1.75529
+cap "vcro_5s_0/delaycell_vcro_4/gnd" "vcro_5s_0/delaycell_vcro_2/tg_vcro_0/out" 3.24028
 cap "vcro_5s_0/delaycell_vcro_3/tg_vcro_0/out" "vcro_5s_0/delaycell_vcro_4/gnd" 2.49817
+cap "vcro_5s_0/delaycell_vcro_4/gnd" "vcro_5s_0/delaycell_vcro_4/tg_vcro_0/out" 3.24028
+cap "vcro_5s_0/delaycell_vcro_4/vdd" "vcro_5s_0/delaycell_vcro_4/vcp" 3.73472
+cap "vcro_5s_0/out" "vcro_5s_0/delaycell_vcro_3/tg_vcro_0/out" 1.77636e-15
+cap "vcro_5s_0/out" "vcro_5s_0/delaycell_vcro_4/gnd" 4.3489
+cap "vcro_5s_0/delaycell_vcro_4/vcn" "vcro_5s_0/delaycell_vcro_4/gnd" 8.49915
+cap "vcro_5s_0/delaycell_vcro_4/in" "vcro_5s_0/delaycell_vcro_4/gnd" 2.84217e-14
+cap "vcro_5s_0/out" "vcro_5s_0/delaycell_vcro_4/tg_vcro_0/out" 3.21983
 cap "vcro_5s_0/delaycell_vcro_4/vdd" "vcro_5s_0/delaycell_vcro_3/tg_vcro_0/out" 1.33038
-cap "vcro_5s_0/out" "vcro_5s_0/delaycell_vcro_4/in" 0.00517822
+cap "vcro_5s_0/delaycell_vcro_4/vdd" "vcro_5s_0/delaycell_vcro_4/gnd" -48.9677
 cap "vcro_5s_0/out" "vcro_5s_0/delaycell_vcro_4/gnd" 0.184155
-cap "vcro_5s_0/delaycell_vcro_3/inv_vcro_0/in" "vcro_5s_0/out" 0.00383515
+cap "vcro_5s_0/out" "vcro_5s_0/delaycell_vcro_4/tg_vcro_0/out" 0.0551642
+cap "vcro_5s_0/out" "vcro_5s_0/delaycell_vcro_3/inv_vcro_0/in" 0.00383515
 cap "vcro_5s_0/out" "vcro_5s_0/delaycell_vcro_4/vdd" 2.69166
-cap "vcro_5s_0/delaycell_vcro_4/tg_vcro_0/out" "vcro_5s_0/out" 0.0551642
-cap "vcro_5s_0/delaycell_vcro_4/inv_vcro_0/gnd" "vcro_5s_0/out" 0.00122865
+cap "vcro_5s_0/delaycell_vcro_4/in" "vcro_5s_0/out" 0.00517822
+cap "vcro_5s_0/out" "vcro_5s_0/delaycell_vcro_4/inv_vcro_0/gnd" 0.00122865
 merge "vcro_5s_0/delaycell_vcro_4/inv_vcro_0/gnd" "vcro_5s_0/delaycell_vcro_4/gnd" -2489.06 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -479700 -11864 0 0 0 0 0 0 0 0 0 0
 merge "vcro_5s_0/delaycell_vcro_4/gnd" "vcro_5s_0/gnd"
 merge "vcro_5s_0/gnd" "VGND"

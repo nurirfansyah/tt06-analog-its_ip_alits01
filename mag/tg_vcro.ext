@@ -18,15 +18,15 @@ node "in" 1796 245.895 -140 330 m1 0 0 0 0 0 0 0 0 14000 540 28000 940 0 0 0 0 0
 node "vcon_p" 423 290.844 -160 510 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 65400 1660 0 0 8800 380 8800 380 0 0 0 0 0 0 0 0 0 0
 node "vdd" 1602 1261.44 -200 1150 m1 0 0 0 0 280900 2120 0 0 48000 1040 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57900 2240 47700 1240 0 0 0 0 0 0 0 0 0 0
 substrate "gnd" 0 0 -200 -190 m1 0 0 0 0 0 0 0 0 0 0 24000 640 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48300 1760 47700 1240 0 0 0 0 0 0 0 0 0 0
+cap "vdd" "out" 59.3115
+cap "vcon_n" "vcon_p" 34.9567
+cap "in" "vcon_p" 156.752
 cap "in" "vcon_n" 156.208
-cap "vcon_n" "vdd" 1.92501
-cap "in" "vdd" 166.974
-cap "vcon_p" "vcon_n" 34.9567
-cap "vcon_p" "in" 156.752
-cap "vcon_p" "vdd" 188.511
+cap "vdd" "vcon_p" 188.511
+cap "vdd" "vcon_n" 1.92501
+cap "vdd" "in" 166.974
+cap "out" "vcon_p" 20.7964
 cap "in" "out" 165.592
 cap "out" "vcon_n" 20.7964
-cap "out" "vdd" 59.3115
-cap "vcon_p" "out" 20.7964
 device msubckt sky130_fd_pr__nfet_01v8 50 -30 51 -29 l=100 w=200 "gnd" "vcon_n" 200 0 "in" 200 14000,540 "out" 200 14000,540
 device msubckt sky130_fd_pr__pfet_01v8 50 560 51 561 l=100 w=400 "vdd" "vcon_p" 200 0 "in" 400 28000,940 "out" 400 28000,940

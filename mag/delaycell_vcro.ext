@@ -20,29 +20,29 @@ node "in" 0 45.1865 50 530 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "vcp" 0 60.2085 30 640 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8800 380 0 0 0 0 0 0 0 0 0 0
 node "vdd" 0 64.9387 -10 1270 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6300 320 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "vcn" "gnd" 6.11111
+cap "vcn" "vcp" 4.4
+cap "in" "vcp" 44
 cap "in" "vcn" 44
-cap "gnd" "vcn" 6.11111
-cap "gnd" "vdd" 1.44262
-cap "vcp" "vcn" 4.4
-cap "vcp" "in" 44
-cap "vcp" "vdd" 2.2
+cap "vdd" "gnd" 1.44262
+cap "vdd" "vcp" 2.2
 cap "m1_520_500#" "out" 12
 cap "in" "m1_520_500#" 7.89744
-cap "tg_vcro_0/out" "tg_vcro_0/in" -7.24572
-cap "tg_vcro_0/vcon_p" "tg_vcro_0/in" -44
-cap "tg_vcro_0/vcon_n" "inv_vcro_0/out" 0.0884219
-cap "tg_vcro_0/vcon_n" "tg_vcro_0/gnd" -5.5019
-cap "tg_vcro_0/out" "tg_vcro_0/vcon_n" 5.76853
-cap "tg_vcro_0/vdd" "inv_vcro_0/out" 0.657291
-cap "tg_vcro_0/vcon_p" "tg_vcro_0/vcon_n" -4.4
 cap "tg_vcro_0/out" "inv_vcro_0/out" -7.07722
+cap "tg_vcro_0/gnd" "tg_vcro_0/out" 28.9617
+cap "tg_vcro_0/vdd" "inv_vcro_0/out" 0.657291
+cap "tg_vcro_0/out" "tg_vcro_0/in" -7.24572
+cap "tg_vcro_0/out" "tg_vcro_0/vcon_n" 5.76853
 cap "tg_vcro_0/vdd" "tg_vcro_0/gnd" -6.1458
-cap "tg_vcro_0/vcon_p" "inv_vcro_0/out" 0.0884219
-cap "tg_vcro_0/out" "tg_vcro_0/vdd" 58.825
-cap "tg_vcro_0/vcon_p" "tg_vcro_0/vdd" 1.69143
-cap "tg_vcro_0/out" "tg_vcro_0/gnd" 28.9617
 cap "tg_vcro_0/out" "tg_vcro_0/vcon_p" 5.76853
-cap "tg_vcro_0/in" "tg_vcro_0/vcon_n" -44
+cap "tg_vcro_0/vdd" "tg_vcro_0/vcon_p" 1.69143
+cap "inv_vcro_0/out" "tg_vcro_0/vcon_n" 0.0884219
+cap "tg_vcro_0/gnd" "tg_vcro_0/vcon_n" -5.5019
+cap "inv_vcro_0/out" "tg_vcro_0/vcon_p" 0.0884219
+cap "tg_vcro_0/vcon_n" "tg_vcro_0/in" -44
+cap "tg_vcro_0/vcon_p" "tg_vcro_0/vcon_n" -4.4
+cap "tg_vcro_0/vcon_p" "tg_vcro_0/in" -44
+cap "tg_vcro_0/vdd" "tg_vcro_0/out" 58.825
 merge "inv_vcro_0/gnd" "tg_vcro_0/gnd" -171.912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -140 -8100 -540 0 0 0 0 0 0 0 0 0 0
 merge "tg_vcro_0/gnd" "VSUBS"
 merge "VSUBS" "gnd"
