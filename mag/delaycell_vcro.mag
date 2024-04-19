@@ -1,0 +1,27 @@
+magic
+tech sky130A
+timestamp 1713497851
+<< metal1 >>
+rect 260 250 295 310
+use inv_vcro  inv_vcro_0
+timestamp 1713490626
+transform 1 0 360 0 1 100
+box -100 -95 220 580
+use tg_vcro  tg_vcro_0
+timestamp 1713495731
+transform 1 0 95 0 1 100
+box -100 -95 165 580
+<< labels >>
+flabel space -5 635 20 640 0 FreeSans 560 0 0 0 vdd
+port 0 nsew
+flabel space 15 320 40 325 0 FreeSans 560 0 0 0 vcp
+port 1 nsew
+flabel space 525 250 550 255 0 FreeSans 560 0 0 0 out
+port 2 nsew
+flabel space 25 265 50 270 0 FreeSans 560 0 0 0 in
+port 3 nsew
+flabel space 15 205 40 210 0 FreeSans 560 0 0 0 vcn
+port 4 nsew
+flabel space -5 45 20 50 0 FreeSans 560 0 0 0 gnd
+port 5 nsew
+<< end >>

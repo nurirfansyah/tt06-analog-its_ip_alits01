@@ -5,8 +5,20 @@ K {}
 V {}
 S {}
 E {}
-N 1360 -1290 1360 -1260 {
+N 1300 -1530 1300 -1480 {
+lab=VPWR}
+N 1300 -1480 1330 -1480 {
+lab=VPWR}
+N 1280 -1460 1330 -1460 {
+lab=ua[2]}
+N 1280 -1440 1330 -1440 {
+lab=ua[2]}
+N 1300 -1420 1330 -1420 {
 lab=VGND}
+N 1300 -1420 1300 -1370 {
+lab=VGND}
+N 1630 -1480 1670 -1480 {
+lab=ua[0]}
 C {devices/ipin.sym} 770 -1610 0 0 {name=p0 lab=clk}
 C {devices/ipin.sym} 770 -1590 0 0 {name=p1 lab=ena}
 C {devices/ipin.sym} 770 -1570 0 0 {name=p2 lab=rst_n}
@@ -50,7 +62,6 @@ C {devices/noconn.sym} 770 -1590 0 1 {name=l2}
 C {devices/noconn.sym} 770 -1570 0 1 {name=l3}
 C {devices/noconn.sym} 770 -1490 0 1 {name=l7}
 C {devices/noconn.sym} 770 -1430 0 1 {name=l8}
-C {devices/noconn.sym} 770 -1390 0 1 {name=l25}
 C {devices/noconn.sym} 770 -1370 0 1 {name=l26}
 C {devices/noconn.sym} 770 -1350 0 1 {name=l27}
 C {devices/noconn.sym} 770 -1330 0 1 {name=l28}
@@ -100,17 +111,13 @@ C {devices/noconn.sym} 900 -1130 0 0 {name=l16}
 C {devices/noconn.sym} 770 -1450 0 1 {name=l17}
 C {devices/noconn.sym} 770 -1470 0 1 {name=l18}
 C {devices/noconn.sym} 770 -1410 0 1 {name=l4}
-C {devices/ipin.sym} 1270 -1460 0 0 {name=p3 lab=ua[0]}
-C {devices/ipin.sym} 1270 -1380 0 0 {name=p4 lab=ua[1]}
-C {devices/ipin.sym} 1270 -1350 0 0 {name=p11 lab=ui_in[0]}
-C {devices/opin.sym} 1430 -1460 0 0 {name=p35 lab=uo_out[0]}
-C {devices/opin.sym} 1430 -1380 0 0 {name=p5 lab=ua[2]}
-C {devices/iopin.sym} 1360 -1260 1 0 {name=p44 lab=VGND}
-C {devices/iopin.sym} 1360 -1530 1 1 {name=p43 lab=VPWR}
-C {devices/noconn.sym} 1430 -1460 0 0 {name=l5}
-C {devices/noconn.sym} 1430 -1380 0 0 {name=l6}
-C {devices/noconn.sym} 1360 -1530 0 0 {name=l19}
-C {devices/noconn.sym} 1360 -1290 0 0 {name=l20}
-C {devices/noconn.sym} 1270 -1460 0 1 {name=l21}
-C {devices/noconn.sym} 1270 -1380 0 1 {name=l22}
-C {devices/noconn.sym} 1270 -1350 0 1 {name=l23}
+C {devices/ipin.sym} 1280 -1460 0 0 {name=p3 lab=ua[2]}
+C {devices/ipin.sym} 1280 -1440 0 0 {name=p4 lab=ua[1]}
+C {devices/ipin.sym} 770 -1390 0 0 {name=p11 lab=ui_in[0]}
+C {devices/opin.sym} 890 -1450 0 0 {name=p35 lab=uo_out[0]}
+C {devices/opin.sym} 1670 -1480 0 0 {name=p5 lab=ua[0]}
+C {devices/iopin.sym} 1300 -1370 1 0 {name=p44 lab=VGND}
+C {devices/iopin.sym} 1300 -1530 1 1 {name=p43 lab=VPWR}
+C {devices/noconn.sym} 890 -1450 0 0 {name=l5}
+C {devices/noconn.sym} 770 -1390 0 1 {name=l23}
+C {vcro_5elements.sym} 1480 -1450 0 0 {name=x1}

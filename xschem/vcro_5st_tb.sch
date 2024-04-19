@@ -47,7 +47,12 @@ N 180 -40 230 -40 {
 lab=out}
 N 90 -40 120 -40 {
 lab=#net2}
-C {vcro_5st.sym} -60 -10 0 0 {name=x1}
+N 210 40 210 50 {
+lab=GND}
+N -250 50 210 50 {
+lab=GND}
+N 210 -40 210 -20 {
+lab=out}
 C {devices/vsource.sym} -520 0 0 0 {name=V1 value=1.8 savecurrent=false}
 C {devices/vsource.sym} -420 0 0 0 {name=V2 value="pwl(0s 0.4V 1ms 0.3V 2ms 1.4V)" savecurrent=false}
 C {devices/gnd.sym} -390 60 0 0 {name=l1 lab=GND}
@@ -81,3 +86,9 @@ device=resistor
 m=1}
 C {devices/bsource.sym} -310 -60 0 0 {name=B1 VAR=V FUNC=V(vc)}
 C {devices/lab_wire.sym} -310 -20 0 0 {name=p3 sig_type=std_logic lab=vcp}
+C {vcro_5elements.sym} -60 -10 0 0 {name=x1}
+C {devices/capa.sym} 210 10 0 0 {name=C1
+m=1
+value=5p
+footprint=1206
+device="ceramic capacitor"}
