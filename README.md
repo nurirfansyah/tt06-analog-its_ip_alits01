@@ -41,7 +41,6 @@ The circuit can be simulated with ngspice, please use xschem to open the vcro_5s
 
 ## Circuit picture
 
-```markdown
 ![Circuit Layout](/docs/vcro_alits01.png)
 
 # Tiny Tapeout Analog Project Template
