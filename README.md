@@ -23,13 +23,20 @@ Retdian, N., Takagi, S., & Fujii, N. (2002). Voltage controlled ring oscillator 
 
 ## How to Test
 
+There are two VCOs, inputs to both VCO are shared. VCO#1 output is connected to analog pin, VCO#2 outputs on each delay element stage can be observed through digital output pins.
+
 **Pinouts:**
 
 | Pin Name | Description               | Corresponding Signal |
 |----------|---------------------------|----------------------|
-| ua[0]    | Output signal             | out                  |
+| ua[0]    | VCO#1 output signal       | out                  |
 | ua[1]    | Negative control voltage  | vcon_n               |
 | ua[2]    | Positive control voltage  | vcon_p               |
+| uo[0]    | VCO#2 output stage 5      | out5                 |
+| uo[1]    | VCO#2 output stage 4      | out4                 |
+| uo[2]    | VCO#2 output stage 3      | out3                 |
+| uo[3]    | VCO#2 output stage 2      | out2                 |
+| uo[4]    | VCO#2 output stage 1      | out1                 |
 
 **External Hardware**
 
@@ -37,7 +44,7 @@ To test the VCRO (if it works), apply control voltages `vcon_n` and `vcon_p` to 
 
 **Simulation**
 
-The circuit can be simulated with ngspice, please use xschem to open the vcro_5st.sch file and the simulation can be invoked from there, or alternatively the spice netlist can be generated from xschem.
+The circuit can be simulated with ngspice, please use xschem to open the xschem/vcro_5st_tb.sch file and the simulation can be invoked from there, or alternatively the spice netlist can be generated from xschem.
 
 ## Circuit picture
 
